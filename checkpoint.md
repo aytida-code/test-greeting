@@ -9,7 +9,7 @@
 
 ## Progress
 - [x] STEP 1: Design and endpoint classification (`POST /greet`: TESTABLE; `GET /health`: TESTABLE; docs/OpenAPI: TESTABLE).
-- [ ] STEP 2-7: Application and infrastructure
-- [ ] STEP 10-11: Compile, smoke, boot verification
-- [ ] STEP 15: Reports
-- [ ] Final Docker verification
+- [x] STEP 2-7: Application and infrastructure; verified `Dockerfile` and `docker-compose.yml` exist.
+- [x] STEP 10-11: Compile, required TestClient smoke check, and live boot verification passed.
+- [x] STEP 15: Live HTTP reports generated in `tests-artifacts/`.
+- [!] Final Docker verification: attempted once; unavailable because the host Docker daemon is not running.
